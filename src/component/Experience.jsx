@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 
-// --- COMPONENT: Fanned Stack Photo Gallery (Bisa baca String Path & Object) ---
+
 const ExperienceFannedStack = ({ 
   photos = [
     { src: '/photos/WhatsApp Image 2026-10-02 at 12.15.31 (1).jpeg', alt: 'Photo 1' },
@@ -50,7 +50,7 @@ const ExperienceFannedStack = ({
   return (
     <div className="flex flex-col items-center gap-3">
       <motion.div 
-        className="relative w-36 h-36 md:w-40 md:h-40 cursor-pointer group"
+        className="relative w-50 h-50 md:w-60 md:h-60 cursor-pointer group"
         whileHover={{ scale: 1.04 }}
         whileTap={{ scale: 0.98 }}
         onClick={handleNext}
@@ -60,11 +60,9 @@ const ExperienceFannedStack = ({
             const off = fanOffsets[Math.min(index, fanOffsets.length - 1)];
             const isFront = index === 0;
 
-            // Ekstraksi path gambar dan alt text
             const imgSrc = typeof photoItem === 'object' ? photoItem.src : photoItem;
             const imgAlt = typeof photoItem === 'object' ? photoItem.alt : `Experience Photo ${index + 1}`;
             
-            // Cek apakah berupa gambar
             const isImage = typeof imgSrc === 'string' && (imgSrc.includes('/') || imgSrc.includes('.'));
             const itemKey = typeof photoItem === 'object' ? photoItem.src : photoItem;
 
@@ -120,7 +118,6 @@ const ExperienceFannedStack = ({
   );
 };
 
-// --- MAIN EXPERIENCE SECTION ---
 export default function Experience() {
   const timelineRef = useRef(null);
   const { scrollYProgress } = useScroll({

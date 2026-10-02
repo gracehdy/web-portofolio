@@ -15,11 +15,10 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
         { name: 'Contact', link: '#contact' }
     ];
 
-    // Auto update active section berdasarkan posisi scroll halaman
     useEffect(() => {
         const handleScroll = () => {
             const sections = navItems.map((item) => item.name.toLowerCase());
-            const scrollPosition = window.scrollY + 200; // Offset posisi pandang
+            const scrollPosition = window.scrollY + 200;
 
             for (let i = sections.length - 1; i >= 0; i--) {
                 const sectionEl = document.getElementById(sections[i]);
@@ -34,7 +33,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
         };
 
         window.addEventListener('scroll', handleScroll);
-        handleScroll(); // Jalankan sekali saat pertama dimuat
+        handleScroll();
 
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
