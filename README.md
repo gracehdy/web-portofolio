@@ -1,6 +1,3 @@
-Berikut adalah draf **`README.md`** yang profesional, rapi, dan siap kamu salin ke repositori GitHub kamu (`web-portofolio`):
-
-```markdown
 # Personal Portfolio Website 
 
 A modern, fast, and fully responsive personal portfolio website built with **React.js**, **Vite**, **Tailwind CSS**, and **Framer Motion**. Deployed seamlessly on **Vercel**.
