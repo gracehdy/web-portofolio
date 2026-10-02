@@ -150,7 +150,7 @@ export default function Experience() {
       location: 'Jakarta, ID',
       period: 'Dec 2025',
       desc: 'Served as Master of Ceremonies (Online Session) for HIMTI Leadership Training (HILET) 2025, a fundamental leadership training program organized by HIMTI BINUS University for incoming HIMTI activist candidates; hosted the virtual session proceedings and facilitated engagement among participants in a remote format.',
-      tags: ['Virtual Hosting', 'Participant Engagement', 'Adaptability'],
+      tags: ['Virtual Hosting', 'Public Speaking', 'Adaptability'],
       photos: ['/photos/Screenshot_20260928_235830_Instagram.jpg'],
     },
     {
@@ -159,7 +159,7 @@ export default function Experience() {
       location: 'Jakarta, ID',
       period: 'Sep 2025 - Oct 2025',
       desc: 'Led the event committee and served as Master of Ceremonies for HIMTI\'s activist-selection program in Semarang; supervised planning, scheduling, and assessment coordination for new members while hosting the event proceedings.',
-      tags: ['Leadership', 'Planning & Organizing', 'Event Hosting', 'Team Management'],
+      tags: ['Leadership', 'Planning & Organizing', 'Event Hosting', 'Team Management', 'Time Management'],
       photos: [
         '/photos/DSC_0438.JPG', 
         '/photos/DSC_0466.JPG', 
@@ -173,7 +173,7 @@ export default function Experience() {
       location: 'Jakarta, ID',
       period: 'Aug 2025 - Sep 2025',
       desc: 'I served as a staff member for Techno 2025, a welcoming party event for new computer science students. At this event, I registered participants for the programming language class (PBP), sent out email blasts as reminders to participants, and served as Master of Ceremonies, hosting and guiding the event flow to maintain an engaging, lively, and structured atmosphere. Served as Moderator for the talk show "Down the AI Rabbit Hole: Prospects and Challenges in Academy & Careers" at HIMTI BINUS TECHNO 2025. Facilitated discussion on AI trends and their impact on academic and career opportunities for new students.',
-      tags: ['Facilitation', 'Critical Thinking', 'Moderation'],
+      tags: ['Facilitation', 'Critical Thinking', 'Public Speaking'],
       photos: [
         '/photos/_DSC0075.JPG', 
         '/photos/_DSC0112.JPG', 
@@ -206,7 +206,7 @@ export default function Experience() {
       desc: [
         'Mentored and facilitated a class of 40+ freshmen at BINUS University as a Speaker for their orientation.',
       ],
-      tags: ['Mentorship', 'Leadership', 'Public Speaking', 'Community Initiative'],
+      tags: ['Mentorship', 'Leadership', 'Public Speaking', 'Time Management'],
       photos: [
         '/photos/WhatsApp_Image_2026-09-16_at_00.24.26.jpeg', 
         '/photos/WhatsApp Image 2026-10-02 at 12.13.48 (1).jpeg', 
