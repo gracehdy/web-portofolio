@@ -78,7 +78,13 @@ export default function Hero() {
       </p>
 
         <div className="flex flex-wrap gap-3.5 pt-2">
-          <a href="#" className="px-6 py-3.5 bg-stone-900 dark:bg-[#F3EEEC] text-white dark:text-[#17151A] rounded-lg font-semibold text-sm hover:bg-rose-500 dark:hover:bg-[#FF7C99] dark:hover:text-white transition-colors">
+          <a 
+            href="/CV_Grace.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            download="CV_Grace.pdf"
+            className="px-6 py-3.5 bg-stone-900 dark:bg-[#F3EEEC] text-white dark:text-[#17151A] rounded-lg font-semibold text-sm hover:bg-rose-500 dark:hover:bg-[#FF7C99] dark:hover:text-white transition-colors cursor-pointer"
+          >
             Download CV
           </a>
           <a href="#contact" className="px-6 py-3.5 border border-stone-300 dark:border-[#312C31] text-stone-900 dark:text-[#F3EEEC] rounded-lg font-semibold text-sm hover:border-rose-500 dark:hover:border-[#FF7C99] hover:text-rose-500 dark:hover:text-[#FF7C99] transition-colors">
