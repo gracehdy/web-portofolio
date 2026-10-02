@@ -50,7 +50,7 @@ const ExperienceFannedStack = ({
   return (
     <div className="flex flex-col items-center gap-3">
       <motion.div 
-        className="relative w-100 h-100 md:w-110 md:h-110 cursor-pointer group"
+        className="relative w-80 h-80 md:w-90 md:h-90 cursor-pointer group"
         whileHover={{ scale: 1.04 }}
         whileTap={{ scale: 0.98 }}
         onClick={handleNext}
